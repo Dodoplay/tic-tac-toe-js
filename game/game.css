@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  background-color: rgb(137, 173, 240);
+}
+
+.main-box {
+  height: 90vh;
+  margin-top: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: aquamarine;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 120px;
+}
+
+td {
+  border: 5px solid black;
+  height: 25vh;
+  width: 25vh;
+  text-align: center; /*horizontal align */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  cursor: pointer;
+}
+
+table {
+  /*border: 2px solid black;*/
+  border-collapse: collapse;
+}
+
+/*remove table top border*/
+table tr:first-child td {
+  border-top: 0;
+}
+
+/*remove table bottom border*/
+table tr:last-child td {
+  border-bottom: 0;
+}
+
+/*remove table left border*/
+table tr td:first-child {
+  border-left: 0;
+}
+
+/*remove table right border*/
+table tr td:last-child {
+  border-right: 0;
+}
+
+button {
+  background: aquamarine;
+  border: 5px solid black;
+  border-radius: 50px;
+  margin: 10px;
+  padding: 10px;
+  font-size: 5vh;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.endgame {
+  display: none;
+  background-color: rgb(55, 241, 114);
+  height: 45vh;
+  width: 50vh;
+  position: absolute;
+  text-align: center;
+}
