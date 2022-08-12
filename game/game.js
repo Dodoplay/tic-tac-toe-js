@@ -110,5 +110,3 @@ function checkTie(){
         return true;
     }
 }
-
-prompt("hello world")
