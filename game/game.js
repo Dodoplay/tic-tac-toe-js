@@ -1,4 +1,3 @@
-alert("hello gais?")
 // array to keep track of what is in each box of the board
 var originalBoard;
 
