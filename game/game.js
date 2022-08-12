@@ -111,3 +111,4 @@ function checkTie(){
     }
 }
 
+prompt("hello world")
